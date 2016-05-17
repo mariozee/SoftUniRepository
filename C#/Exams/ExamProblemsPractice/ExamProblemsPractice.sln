@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Plus-Remove", "01.Plus-R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.StringMatrixRotation", "02.StringMatrixRotation\02.StringMatrixRotation.csproj", "{43D6CEF5-B18D-4B24-B1EC-93C74A880843}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ExctractHyperlinks", "03.ExctractHyperlinks\03.ExctractHyperlinks.csproj", "{87345A6D-341E-4B22-A422-E418368C07EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{43D6CEF5-B18D-4B24-B1EC-93C74A880843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43D6CEF5-B18D-4B24-B1EC-93C74A880843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43D6CEF5-B18D-4B24-B1EC-93C74A880843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87345A6D-341E-4B22-A422-E418368C07EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87345A6D-341E-4B22-A422-E418368C07EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87345A6D-341E-4B22-A422-E418368C07EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87345A6D-341E-4B22-A422-E418368C07EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
