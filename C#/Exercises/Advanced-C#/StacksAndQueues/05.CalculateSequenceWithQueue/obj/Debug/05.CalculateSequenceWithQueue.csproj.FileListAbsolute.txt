@@ -1,0 +1,6 @@
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\05.CalculateSequenceWithQueue\bin\Debug\05.CalculateSequenceWithQueue.exe.config
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\05.CalculateSequenceWithQueue\bin\Debug\05.CalculateSequenceWithQueue.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\05.CalculateSequenceWithQueue\bin\Debug\05.CalculateSequenceWithQueue.pdb
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\05.CalculateSequenceWithQueue\obj\Debug\05.CalculateSequenceWithQueue.csprojResolveAssemblyReference.cache
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\05.CalculateSequenceWithQueue\obj\Debug\05.CalculateSequenceWithQueue.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\05.CalculateSequenceWithQueue\obj\Debug\05.CalculateSequenceWithQueue.pdb
