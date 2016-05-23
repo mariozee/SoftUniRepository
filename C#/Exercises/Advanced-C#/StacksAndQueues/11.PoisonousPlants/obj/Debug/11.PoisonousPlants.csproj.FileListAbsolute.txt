@@ -1,0 +1,6 @@
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\11.PoisonousPlants\bin\Debug\11.PoisonousPlants.exe.config
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\11.PoisonousPlants\bin\Debug\11.PoisonousPlants.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\11.PoisonousPlants\bin\Debug\11.PoisonousPlants.pdb
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\11.PoisonousPlants\obj\Debug\11.PoisonousPlants.csprojResolveAssemblyReference.cache
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\11.PoisonousPlants\obj\Debug\11.PoisonousPlants.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\11.PoisonousPlants\obj\Debug\11.PoisonousPlants.pdb
