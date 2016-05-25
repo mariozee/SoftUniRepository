@@ -1,0 +1,6 @@
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\13.SrubskoUnleashed\bin\Debug\13.SrubskoUnleashed.exe.config
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\13.SrubskoUnleashed\bin\Debug\13.SrubskoUnleashed.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\13.SrubskoUnleashed\bin\Debug\13.SrubskoUnleashed.pdb
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\13.SrubskoUnleashed\obj\Debug\13.SrubskoUnleashed.csprojResolveAssemblyReference.cache
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\13.SrubskoUnleashed\obj\Debug\13.SrubskoUnleashed.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\13.SrubskoUnleashed\obj\Debug\13.SrubskoUnleashed.pdb

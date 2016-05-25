@@ -1,0 +1,1 @@
+D:\SoftUni\SoftUniRepository\C#\Lab\BashSoftSolution\BashSoft\bin\Release\BashSoft.exe.config

@@ -1,0 +1,5 @@
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\06.AMinerTask\bin\Debug\06.AMinerTask.exe.config
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\06.AMinerTask\bin\Debug\06.AMinerTask.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\06.AMinerTask\bin\Debug\06.AMinerTask.pdb
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\06.AMinerTask\obj\Debug\06.AMinerTask.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\06.AMinerTask\obj\Debug\06.AMinerTask.pdb

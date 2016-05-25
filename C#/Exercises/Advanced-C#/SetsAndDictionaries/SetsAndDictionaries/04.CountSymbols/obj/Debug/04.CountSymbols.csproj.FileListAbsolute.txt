@@ -1,0 +1,5 @@
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\04.CountSymbols\bin\Debug\04.CountSymbols.exe.config
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\04.CountSymbols\bin\Debug\04.CountSymbols.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\04.CountSymbols\bin\Debug\04.CountSymbols.pdb
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\04.CountSymbols\obj\Debug\04.CountSymbols.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\04.CountSymbols\obj\Debug\04.CountSymbols.pdb

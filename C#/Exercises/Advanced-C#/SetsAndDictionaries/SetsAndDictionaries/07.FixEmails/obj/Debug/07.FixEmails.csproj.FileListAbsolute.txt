@@ -1,0 +1,5 @@
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\07.FixEmails\bin\Debug\07.FixEmails.exe.config
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\07.FixEmails\bin\Debug\07.FixEmails.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\07.FixEmails\bin\Debug\07.FixEmails.pdb
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\07.FixEmails\obj\Debug\07.FixEmails.exe
+D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\07.FixEmails\obj\Debug\07.FixEmails.pdb
