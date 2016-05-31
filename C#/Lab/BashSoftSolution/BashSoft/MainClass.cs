@@ -10,7 +10,9 @@ namespace BashSoft
     {
         static void Main(string[] args)
         {
-            IOManager.TraverseFolder(@"D:\Music");
+            //IOManager.TraverseFolder(@"D:\Music");
+            Data.InitializeData();
+            Data.GetStudenScoresFromCourse("Unity", "Ivan");
         }        
     }
 }
