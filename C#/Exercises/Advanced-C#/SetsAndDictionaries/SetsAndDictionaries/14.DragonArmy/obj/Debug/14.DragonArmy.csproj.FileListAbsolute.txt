@@ -1,6 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\14.DragonArmy\bin\Debug\14.DragonArmy.exe.config
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\14.DragonArmy\bin\Debug\14.DragonArmy.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\14.DragonArmy\bin\Debug\14.DragonArmy.pdb
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\14.DragonArmy\obj\Debug\14.DragonArmy.csprojResolveAssemblyReference.cache
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\14.DragonArmy\obj\Debug\14.DragonArmy.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\14.DragonArmy\obj\Debug\14.DragonArmy.pdb

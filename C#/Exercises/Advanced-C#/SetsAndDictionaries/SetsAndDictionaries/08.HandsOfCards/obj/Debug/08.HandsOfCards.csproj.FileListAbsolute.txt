@@ -1,6 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\08.HandsOfCards\bin\Debug\08.HandsOfCards.exe.config
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\08.HandsOfCards\bin\Debug\08.HandsOfCards.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\08.HandsOfCards\bin\Debug\08.HandsOfCards.pdb
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\08.HandsOfCards\obj\Debug\08.HandsOfCards.csprojResolveAssemblyReference.cache
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\08.HandsOfCards\obj\Debug\08.HandsOfCards.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\08.HandsOfCards\obj\Debug\08.HandsOfCards.pdb

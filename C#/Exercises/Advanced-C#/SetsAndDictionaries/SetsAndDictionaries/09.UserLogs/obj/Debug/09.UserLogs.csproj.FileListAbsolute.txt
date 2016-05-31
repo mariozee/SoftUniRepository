@@ -1,6 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\09.UserLogs\bin\Debug\09.UserLogs.exe.config
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\09.UserLogs\bin\Debug\09.UserLogs.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\09.UserLogs\bin\Debug\09.UserLogs.pdb
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\09.UserLogs\obj\Debug\09.UserLogs.csprojResolveAssemblyReference.cache
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\09.UserLogs\obj\Debug\09.UserLogs.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\09.UserLogs\obj\Debug\09.UserLogs.pdb

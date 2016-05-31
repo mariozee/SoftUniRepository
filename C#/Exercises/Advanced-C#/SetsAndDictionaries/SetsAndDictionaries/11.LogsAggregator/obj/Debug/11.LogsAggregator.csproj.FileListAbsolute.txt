@@ -1,5 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\11.LogsAggregator\bin\Debug\11.LogsAggregator.exe.config
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\11.LogsAggregator\bin\Debug\11.LogsAggregator.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\11.LogsAggregator\bin\Debug\11.LogsAggregator.pdb
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\11.LogsAggregator\obj\Debug\11.LogsAggregator.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\11.LogsAggregator\obj\Debug\11.LogsAggregator.pdb

@@ -1,6 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\08.RecursiveFibonacci\bin\Debug\08.RecursiveFibonacci.exe.config
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\08.RecursiveFibonacci\bin\Debug\08.RecursiveFibonacci.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\08.RecursiveFibonacci\bin\Debug\08.RecursiveFibonacci.pdb
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\08.RecursiveFibonacci\obj\Debug\08.RecursiveFibonacci.csprojResolveAssemblyReference.cache
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\08.RecursiveFibonacci\obj\Debug\08.RecursiveFibonacci.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\08.RecursiveFibonacci\obj\Debug\08.RecursiveFibonacci.pdb

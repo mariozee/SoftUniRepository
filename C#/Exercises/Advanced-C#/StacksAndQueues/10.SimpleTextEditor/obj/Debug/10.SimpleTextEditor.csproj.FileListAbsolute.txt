@@ -1,6 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\10.SimpleTextEditor\bin\Debug\10.SimpleTextEditor.exe.config
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\10.SimpleTextEditor\bin\Debug\10.SimpleTextEditor.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\10.SimpleTextEditor\bin\Debug\10.SimpleTextEditor.pdb
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\10.SimpleTextEditor\obj\Debug\10.SimpleTextEditor.csprojResolveAssemblyReference.cache
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\10.SimpleTextEditor\obj\Debug\10.SimpleTextEditor.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\StacksAndQueues\10.SimpleTextEditor\obj\Debug\10.SimpleTextEditor.pdb

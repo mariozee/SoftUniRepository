@@ -1,6 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Lab\BashSoftSolution\BashSoft\bin\Debug\BashSoft.exe.config
-D:\SoftUni\SoftUniRepository\C#\Lab\BashSoftSolution\BashSoft\bin\Debug\BashSoft.exe
-D:\SoftUni\SoftUniRepository\C#\Lab\BashSoftSolution\BashSoft\bin\Debug\BashSoft.pdb
-D:\SoftUni\SoftUniRepository\C#\Lab\BashSoftSolution\BashSoft\obj\Debug\BashSoft.csprojResolveAssemblyReference.cache
-D:\SoftUni\SoftUniRepository\C#\Lab\BashSoftSolution\BashSoft\obj\Debug\BashSoft.exe
-D:\SoftUni\SoftUniRepository\C#\Lab\BashSoftSolution\BashSoft\obj\Debug\BashSoft.pdb

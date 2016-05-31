@@ -1,5 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\02.SetsOfElements\bin\Debug\02.SetsOfElements.exe.config
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\02.SetsOfElements\bin\Debug\02.SetsOfElements.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\02.SetsOfElements\bin\Debug\02.SetsOfElements.pdb
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\02.SetsOfElements\obj\Debug\02.SetsOfElements.exe
-D:\SoftUni\SoftUniRepository\C#\Exercises\Advanced-C#\SetsAndDictionaries\SetsAndDictionaries\02.SetsOfElements\obj\Debug\02.SetsOfElements.pdb
