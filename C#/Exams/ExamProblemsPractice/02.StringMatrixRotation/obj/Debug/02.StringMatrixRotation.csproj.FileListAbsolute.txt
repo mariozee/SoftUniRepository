@@ -1,6 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\02.StringMatrixRotation\bin\Debug\02.StringMatrixRotation.exe.config
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\02.StringMatrixRotation\bin\Debug\02.StringMatrixRotation.exe
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\02.StringMatrixRotation\bin\Debug\02.StringMatrixRotation.pdb
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\02.StringMatrixRotation\obj\Debug\02.StringMatrixRotation.exe
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\02.StringMatrixRotation\obj\Debug\02.StringMatrixRotation.pdb
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\02.StringMatrixRotation\obj\Debug\02.StringMatrixRotation.csprojResolveAssemblyReference.cache

@@ -1,6 +1,0 @@
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\04.QueryMess\bin\Debug\04.QueryMess.exe.config
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\04.QueryMess\bin\Debug\04.QueryMess.exe
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\04.QueryMess\bin\Debug\04.QueryMess.pdb
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\04.QueryMess\obj\Debug\04.QueryMess.csprojResolveAssemblyReference.cache
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\04.QueryMess\obj\Debug\04.QueryMess.exe
-D:\SoftUni\SoftUniRepository\C#\Exams\ExamProblemsPractice\04.QueryMess\obj\Debug\04.QueryMess.pdb
