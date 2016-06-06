@@ -22,10 +22,10 @@ namespace _07.ConnectedAreasInMatrix
             int sizeResult = this.Size.CompareTo(other.Size);
             if (sizeResult == 0)
             {
-                int rowResult = this.TopRow.CompareTo(other.TopRow);
+                int rowResult = other.TopRow.CompareTo(this.TopRow);
                 if (rowResult == 0)
                 {
-                    int colResult = this.TopCol.CompareTo(other.TopCol);
+                    int colResult = other.TopCol.CompareTo(this.TopCol);
                     return colResult;
                 }
                 else
@@ -37,6 +37,6 @@ namespace _07.ConnectedAreasInMatrix
             {
                 return sizeResult;
             }
-        }
+        }        
     }
 }

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _07.ConnectedAreasInMatrix
 {
@@ -13,6 +11,7 @@ namespace _07.ConnectedAreasInMatrix
         private const char Wall = '*';
         private static char[][] matrix;
         private static int size = 0;
+        private static HashSet<Area> areas = new HashSet<Area>();
 
         public static void Main()
         {
@@ -24,57 +23,70 @@ namespace _07.ConnectedAreasInMatrix
                 matrix[row] = Console.ReadLine().ToCharArray();
             }
 
-            FindArea();
+            FindArea(0, 0);
+            var sortedAreas = areas.OrderByDescending(x => x);
+            int counter = 0;
+            Console.WriteLine("Total areas found: " + sortedAreas.Count());
+            foreach (var area in sortedAreas)
+            {
+                counter++;
+                Console.WriteLine($"Area #{counter} at ({area.TopRow}, {area.TopCol}), size: {area.Size}");
+            }
         }
 
-        private static void FindArea()
+        private static void FindArea(int row, int col)
         {
-            int topRow = 0;
-            int topCol = 0;
-            for (int row = 0; row < matrix.Length; row++)
+            if (row == matrix.Length)
             {
-                for (int col = 0; col < matrix[0].Length; col++)
-                {
-                    if (matrix[row][col] == EmptyCell)
-                    {
-                        topRow = row;
-                        topCol = col;
-                        GetSize(topRow, topCol);
-                    }
-                }
+                return;
             }
+
+            if (col == matrix[0].Length)
+            {
+                FindArea(row + 1, 0);
+                return;
+            }
+
+            if (matrix[row][col] == ' ')
+            {
+                size = 0;
+                GetSize(row, col);
+                areas.Add(new Area(row, col, size));
+            }
+
+            FindArea(row, col + 1);
         }
 
         private static void GetSize(int row, int col)
         {
-            if (row >= matrix.Length || 
-                row <= -1 || 
-                col >= matrix[0].Length || 
-                col <= -1)
+            if (!IsValid(row, col))
             {
                 return;
             }
 
-            if (matrix[row][col] == Wall)
+            if (matrix[row][col] == '*' || matrix[row][col] == '-')
             {
                 return;
             }
 
-            if (matrix[row][col] == MarkedCell)
+            if (matrix[row][col] == ' ')
             {
-                return;
-            }
-
-            if (matrix[row][col] == EmptyCell)
-            {
+                matrix[row][col] = '-';
                 size++;
-                matrix[row][col] = MarkedCell;
             }
 
             GetSize(row + 1, col); //Down
             GetSize(row - 1, col); //Up
             GetSize(row, col + 1); //Right
             GetSize(row, col - 1); //Left
+        }
+
+        private static bool IsValid(int row, int col)
+        {
+            bool isRowValid = row < matrix.Length && row > -1;
+            bool isColValid = col < matrix[0].Length && col > -1;
+
+            return isRowValid && isColValid;
         }
     }
 }

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.PathsBetweenCellsInMatri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ConnectedAreasInMatrix", "07.ConnectedAreasInMatrix\07.ConnectedAreasInMatrix.csproj", "{D782A295-23BD-439B-B175-9E15CBD13F4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temp", "Temp\Temp.csproj", "{8849C407-D0B5-45F0-AE5E-59A48A0C63D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D782A295-23BD-439B-B175-9E15CBD13F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D782A295-23BD-439B-B175-9E15CBD13F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D782A295-23BD-439B-B175-9E15CBD13F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8849C407-D0B5-45F0-AE5E-59A48A0C63D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8849C407-D0B5-45F0-AE5E-59A48A0C63D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8849C407-D0B5-45F0-AE5E-59A48A0C63D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8849C407-D0B5-45F0-AE5E-59A48A0C63D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
