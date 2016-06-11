@@ -8,17 +8,23 @@ namespace BashSoft
         public static void CompareContent(string userOutputPath, string expectedOutputPath)
         {
             OutputWriter.WriteMessageOnNewLine("Reading files...");
+            try
+            {
+                string mismatchPath = GetMismatchPath(expectedOutputPath);
 
-            string mismatchPath = GetMismatchPath(expectedOutputPath);
+                string[] actualOutputLines = File.ReadAllLines(userOutputPath);
+                string[] expectedOutputLines = File.ReadAllLines(expectedOutputPath);
 
-            string[] actualOutputLines = File.ReadAllLines(userOutputPath);
-            string[] expectedOutputLines = File.ReadAllLines(expectedOutputPath);
+                bool hasMismatch;
+                string[] mismatches = GetLineWithPossibleMismatches(actualOutputLines, expectedOutputLines, out hasMismatch);
 
-            bool hasMismatch;
-            string[] mismatches = GetLineWithPossibleMismatches(actualOutputLines, expectedOutputLines, out hasMismatch);
-
-            PrintOutput(mismatches, hasMismatch, mismatchPath);
-            OutputWriter.WriteMessageOnNewLine("Files read!");
+                PrintOutput(mismatches, hasMismatch, mismatchPath);
+                OutputWriter.WriteMessageOnNewLine("Files read!");
+            }
+            catch (FileNotFoundException)
+            {
+                OutputWriter.WriteMessageOnNewLine(ExceptionMessages.InvalidPath);
+            }            
         }
 
         private static void PrintOutput(string[] mismatches, bool hasMismatch, string mismatchPath)
@@ -30,7 +36,15 @@ namespace BashSoft
                     Console.WriteLine(line);
                 }
 
-                File.WriteAllLines(mismatchPath, mismatches);
+                try
+                {
+                    File.WriteAllLines(mismatchPath, mismatches);
+                }
+                catch (DirectoryNotFoundException)
+                {
+                    OutputWriter.WriteMessageOnNewLine(ExceptionMessages.InvalidPath);
+                }
+
                 return;
             }
 
@@ -50,9 +64,17 @@ namespace BashSoft
             hasMismatch = false;
             string output = string.Empty;
 
-            string[] mismatches = new string[actualOutputString.Length];
+            int minOutputLines = actualOutputString.Length;
+            if (actualOutputString.Length != expectedOutputString.Length)
+            {
+                hasMismatch = true;
+                minOutputLines = Math.Min(actualOutputString.Length, expectedOutputString.Length);
+                OutputWriter.WriteMessageOnNewLine(ExceptionMessages.ComparisonOfFilesWithDifferentSizes);
+            }
+
+            string[] mismatches = new string[minOutputLines];
             OutputWriter.WriteMessageOnNewLine("Comparing files...");
-            for (int index = 0; index < actualOutputString.Length; index++)
+            for (int index = 0; index < minOutputLines; index++)
             {
                 string actualLine = actualOutputString[index];
                 string expectedLine = expectedOutputString[index];
