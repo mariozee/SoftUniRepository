@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ExctractHyperlinks", "03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.QueryMess", "04.QueryMess\04.QueryMess.csproj", "{77343770-C523-4E75-9B96-C996E53932C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SemanticHTML", "05.SemanticHTML\05.SemanticHTML.csproj", "{4BACBB28-E080-4CB2-8A27-2B2AB474DCC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SemanticHTML", "05.SemanticHTML\05.SemanticHTML.csproj", "{15C148DF-C2B3-4040-8CAB-D9296880A028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{77343770-C523-4E75-9B96-C996E53932C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77343770-C523-4E75-9B96-C996E53932C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77343770-C523-4E75-9B96-C996E53932C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4BACBB28-E080-4CB2-8A27-2B2AB474DCC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BACBB28-E080-4CB2-8A27-2B2AB474DCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4BACBB28-E080-4CB2-8A27-2B2AB474DCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BACBB28-E080-4CB2-8A27-2B2AB474DCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C148DF-C2B3-4040-8CAB-D9296880A028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C148DF-C2B3-4040-8CAB-D9296880A028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C148DF-C2B3-4040-8CAB-D9296880A028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C148DF-C2B3-4040-8CAB-D9296880A028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

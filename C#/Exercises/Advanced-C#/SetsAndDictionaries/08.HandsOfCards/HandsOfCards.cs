@@ -11,6 +11,7 @@ namespace _08.HandsOfCards
         static void Main()
         {
             facePower = new Dictionary<char, int>()
+
             {
                 { 'J', 11 },
                 { 'Q', 12 },
