@@ -19,7 +19,7 @@ namespace YoutubeRPG
 
         public ScreenManager()
         {
-            this.Dimentions = new Vector2(1500, 1000);
+            this.Dimentions = new Vector2(860, 640);
             this.currentScreen = new SplashScreen();
             this.xmlGameScreenManager = new XmlManager<GameScreen>();
             this.xmlGameScreenManager.Type = this.currentScreen.Type;
