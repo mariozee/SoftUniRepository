@@ -32,6 +32,8 @@ namespace Tic_Tac_Toe
 
             this.theBoard = new Board();
             this.theBoard.InitBoard();
+
+            this.RefreshLabel();
         }
 
         private void panel1_Click(object sender, EventArgs e)
@@ -39,6 +41,43 @@ namespace Tic_Tac_Toe
             Point mouse = Cursor.Position;
             mouse = panel1.PointToClient(mouse);
             this.theBoard.DetectHit(mouse);
+
+            this.RefreshLabel();
+        }
+
+        private void aboutButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void restartButton_Click(object sender, EventArgs e)
+        {
+            this.theBoard.Restart();
+        }
+
+        private void RefreshLabel()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("It is ");
+            if (this.theBoard.GetPlayerForTuen() == Board.X)
+            {
+                sb.Append("X");
+            }
+            else
+            {
+                sb.Append("O");
+            }
+
+            sb.AppendLine("'s Turn ")
+                .AppendLine($"X has won {this.theBoard.GetXwins()} times.")
+                .AppendLine($"O has won {this.theBoard.GetOwins()} times.");
+
+            label1.Text = sb.ToString();
         }
     }
 }

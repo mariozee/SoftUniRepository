@@ -15,10 +15,10 @@ namespace Tic_Tac_Toe
         public GFX(Graphics g)
         {
             gObject = g;
-            this.SetUpCanvas();
+            SetUpCanvas();
         }
 
-        public void SetUpCanvas()
+        public static void SetUpCanvas()
         {
             Brush background = new SolidBrush(Color.WhiteSmoke);
             Pen lines = new Pen(Color.Black, 5);

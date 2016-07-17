@@ -14,12 +14,33 @@ namespace Tic_Tac_Toe
         public const int O = 1;
         public const int B = 2;
 
+        public int OplayerWins = 0;
+        public int XplayerWins = 0;
+
+        public int playersTurn = X;
+
+        public int GetPlayerForTuen()
+        {
+            return this.playersTurn;
+        }
+
+        public int GetOwins()
+        {
+            return this.OplayerWins;
+        }
+        
+        public int GetXwins()
+        {
+            return this.XplayerWins;
+        }
+
         private int movesMade = 0;
 
-        private Holder[,] holders = new Holder[3, 3];
+        private Holder[,] holders; 
 
         public void InitBoard()
         {
+            this.holders = new Holder[3, 3];
             for (int x = 0; x < 3; x++)
             {
                 for (int y = 0; y < 3; y++)
@@ -72,8 +93,12 @@ namespace Tic_Tac_Toe
                         this.holders[x, y].SetValue(X);
                         if (DetectRow())
                         {
+                            this.XplayerWins++;
                             MessageBox.Show("X won!");
+                            this.Restart();
                         }
+
+                        this.playersTurn = O;
                     }
                     else
                     {
@@ -81,8 +106,12 @@ namespace Tic_Tac_Toe
                         this.holders[x, y].SetValue(O);
                         if (DetectRow())
                         {
+                            this.OplayerWins++;
                             MessageBox.Show("O won!");
+                            this.Restart();
                         }
+
+                        this.playersTurn = X;
                     }
 
                     this.movesMade++;
@@ -152,6 +181,12 @@ namespace Tic_Tac_Toe
             }
 
             return false;
+        }
+
+        public void Restart()
+        {
+            InitBoard();
+            GFX.SetUpCanvas();
         }
     }
 
