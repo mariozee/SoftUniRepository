@@ -47,17 +47,20 @@ namespace Tic_Tac_Toe
 
         private void aboutButton_Click(object sender, EventArgs e)
         {
-            
-        }
-
-        private void exitButton_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Tic-Tac-Toe Game").AppendLine();
+            sb.AppendLine("**Fluffy colours edtion**");
+            MessageBox.Show(sb.ToString());
         }
 
         private void restartButton_Click(object sender, EventArgs e)
         {
             this.theBoard.Restart();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         private void RefreshLabel()
@@ -78,6 +81,6 @@ namespace Tic_Tac_Toe
                 .AppendLine($"O has won {this.theBoard.GetOwins()} times.");
 
             label1.Text = sb.ToString();
-        }
+        }        
     }
 }

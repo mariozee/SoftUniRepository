@@ -20,7 +20,7 @@ namespace Tic_Tac_Toe
 
         public static void SetUpCanvas()
         {
-            Brush background = new SolidBrush(Color.WhiteSmoke);
+            Brush background = new SolidBrush(Color.PaleGreen);
             Pen lines = new Pen(Color.Black, 5);
 
             gObject.FillRectangle(background, new Rectangle(0, 0, 500, 600));
@@ -38,7 +38,7 @@ namespace Tic_Tac_Toe
 
         public static void DrawX(Point location)
         {
-            Pen xPen = new Pen(Color.Purple, 5);
+            Pen xPen = new Pen(Color.Orchid, 5);
             int xAbs = location.X * 167;
             int yAbs = location.Y * 167;
             gObject.DrawLine(xPen, xAbs + 10, yAbs + 10, xAbs + 157, yAbs + 157);
@@ -47,7 +47,7 @@ namespace Tic_Tac_Toe
 
         public static void DrawO(Point location)
         {
-            Pen oPen = new Pen(Color.Green, 5);
+            Pen oPen = new Pen(Color.BlueViolet, 5);
             int xAbs = location.X * 167;
             int yAbs = location.Y * 167;
             gObject.DrawEllipse(oPen, xAbs + 10, yAbs + 10, 147, 147);

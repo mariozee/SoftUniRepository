@@ -188,31 +188,5 @@ namespace Tic_Tac_Toe
             InitBoard();
             GFX.SetUpCanvas();
         }
-    }
-
-    class Holder
-    {
-        private Point location;
-        private int value = Board.B;
-
-        public void SetLocation(Point p)
-        {
-            this.location = p;
-        }
-
-        public Point GetLocation()
-        {
-            return this.location;
-        }
-
-        public void SetValue(int i)
-        {
-            this.value = i;
-        }
-
-        public int GetValue()
-        {
-            return this.value;
-        }
-    }
+    }    
 }
